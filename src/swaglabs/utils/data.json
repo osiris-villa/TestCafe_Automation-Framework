@@ -1,0 +1,22 @@
+{
+    "Url" : {
+        "basePage" : "https://www.saucedemo.com/"
+    },
+    "credentials" : {
+        "validUser" : "standard_user",
+        "invalidUser" : "notavalidone",
+         "password" : "secret_sauce"
+    },
+    "ErrorMessages" : {
+        "loginInvalidEmail" : "Epic sadface: Username and password do not match any user in this service",
+        "checkoutFirstName" : "Error: First Name is required"
+    },
+    "Items" : {
+        "item1" : "Sauce Labs Bike Light",
+        "item2" : "Sauce Labs Fleece Jacket",
+        "item3" : "Sauce Labs Onesie"
+    },
+    "Copies" : {
+        "checkoutOverview" : "Checkout: Overview"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "qa-frontend-challemge",
+  "version": "1.0.0",
+  "description": "This is the framework for the QA front end challenge",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "testcafe": "^1.8.2",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test:chrome": "testcafe chrome src/swaglabs/tests --selector-timeout 15000 --assertion-timeout 15000 --reporter html:../Challenge/report/report.html" ,
+    "test:firefox": "testcafe firefox src/swaglabs/tests --selector-timeout 15000 --assertion-timeout 15000",
+    "test:safari": "testcafe safari src/swaglabs/tests --selector-timeout 15000 --assertion-timeout 15000",
+    "test:all": "testcafe safari,chrome,firefox src/swaglabs/tests --selector-timeout 15000 --assertion-timeout 15000"
+  },
+  "author": "Osiris Villa",
+  "license": "ISC"
+}
