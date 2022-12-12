@@ -4,7 +4,7 @@
   "description": "This is the framework for the QA front end challenge",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "testcafe": "^1.8.2",
     "testcafe-reporter-html": "^1.4.6"
   },
